@@ -30,7 +30,13 @@ namespace SzyfrCezara
 
         private void Szyfr_TextChanged(object sender, TextChangedEventArgs e)
         {
-            string text = Console.ReadLine();
+            
+        }
+
+
+        private void Szyfruj_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }
