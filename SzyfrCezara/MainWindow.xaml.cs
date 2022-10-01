@@ -20,14 +20,12 @@ namespace SzyfrCezara
     /// </summary>
     public partial class MainWindow : Window
     {
-
         /// <summary>
         ///  Algorytm Cezara - szyfruje kod poprzez zamiane liter o wskazaną wartość
         /// </summary>
         public MainWindow()
         {
-            //char[] alfabet = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
-
+            InitializeComponent();
         }
 
         private void Szyfr_TextChanged(object sender, TextChangedEventArgs e)
