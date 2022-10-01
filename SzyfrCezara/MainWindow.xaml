@@ -16,11 +16,25 @@
         <TextBox x:Name="DeSzyfr" HorizontalAlignment="Left" Height="142" Margin="33,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="422" Grid.Row="1"/>
         <Button x:Name="Szyfruj" Content="Szyfruj Wiadomość" HorizontalAlignment="Left" Height="36" Margin="607,85,0,0" VerticalAlignment="Top" Width="163"/>
         <Button x:Name="DeSzyfruj" Content="Odszyfruj Wiadomość" HorizontalAlignment="Left" Height="36" Margin="607,39,0,0" VerticalAlignment="Top" Width="163" Grid.Row="1"/>
-        <ListBox x:Name="Lista" HorizontalAlignment="Left" Height="59" Margin="607,171,0,0" VerticalAlignment="Top" Width="49" Grid.RowSpan="2">
-            <ListBoxItem Content="1" Selected="ListBoxItem_Selected"/>
-            <ListBoxItem Content="2"/>
-            <ListBoxItem Content="3"/>
-            <ListBoxItem Content="4"/>
+        <ListBox x:Name="Lista" HorizontalAlignment="Left" Height="348" Margin="470,36,0,0" VerticalAlignment="Top" Width="49" Grid.RowSpan="2">
+            <ListBoxItem x:Name="_1" Content="1" Selected="ListBoxItem_Selected"/>
+            <ListBoxItem x:Name="_2" Content="2"/>
+            <ListBoxItem x:Name="_3" Content="3"/>
+            <ListBoxItem x:Name="_4" Content="4"/>
+            <ListBoxItem x:Name="_5" Content="5" Selected="_4_Selected"/>
+            <ListBoxItem x:Name="_6" Content="6"/>
+            <ListBoxItem x:Name="_7" Content="7"/>
+            <ListBoxItem x:Name="_8" Content="8"/>
+            <ListBoxItem x:Name="_9" Content="9"/>
+            <ListBoxItem x:Name="_4_Copy4" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy5" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy6" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy7" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy8" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy9" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy10" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy11" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_4_Copy12" Content="ListBoxItem"/>
         </ListBox>
 
     </Grid>

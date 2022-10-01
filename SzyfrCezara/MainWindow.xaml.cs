@@ -25,9 +25,14 @@ namespace SzyfrCezara
             InitializeComponent();
         }
 
-        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
-        {
+        
 
-        }
+        
     }
 }
+
+//https://4programmers.net/Forum/C_i_.NET/346475-szyfr_cezara
+
+//https://e.sggw.pl/mod/page/view.php?id=40622
+
+//https://mateuszrus.pl/szyfr-cezara/
