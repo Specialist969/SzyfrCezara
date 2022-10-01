@@ -16,26 +16,43 @@
         <TextBox x:Name="DeSzyfr" HorizontalAlignment="Left" Height="142" Margin="33,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="422" Grid.Row="1"/>
         <Button x:Name="Szyfruj" Content="Szyfruj Wiadomość" HorizontalAlignment="Left" Height="36" Margin="607,85,0,0" VerticalAlignment="Top" Width="163"/>
         <Button x:Name="DeSzyfruj" Content="Odszyfruj Wiadomość" HorizontalAlignment="Left" Height="36" Margin="607,39,0,0" VerticalAlignment="Top" Width="163" Grid.Row="1"/>
-        <ListBox x:Name="Lista" HorizontalAlignment="Left" Height="348" Margin="470,36,0,0" VerticalAlignment="Top" Width="49" Grid.RowSpan="2">
-            <ListBoxItem x:Name="_1" Content="1" Selected="ListBoxItem_Selected"/>
+        <ListBox x:Name="Lista" HorizontalAlignment="Left" Height="62" Margin="681,155,0,0" VerticalAlignment="Top" Width="89" Grid.RowSpan="2">
+            <ListBoxItem x:Name="_1" Content="1"/>
             <ListBoxItem x:Name="_2" Content="2"/>
             <ListBoxItem x:Name="_3" Content="3"/>
             <ListBoxItem x:Name="_4" Content="4"/>
-            <ListBoxItem x:Name="_5" Content="5" Selected="_4_Selected"/>
+            <ListBoxItem x:Name="_5" Content="5"/>
             <ListBoxItem x:Name="_6" Content="6"/>
             <ListBoxItem x:Name="_7" Content="7"/>
             <ListBoxItem x:Name="_8" Content="8"/>
             <ListBoxItem x:Name="_9" Content="9"/>
-            <ListBoxItem x:Name="_4_Copy4" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy5" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy6" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy7" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy8" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy9" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy10" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy11" Content="ListBoxItem"/>
-            <ListBoxItem x:Name="_4_Copy12" Content="ListBoxItem"/>
+            <ListBoxItem x:Name="_10" Content="10"/>
+            <ListBoxItem x:Name="_11" Content="11"/>
+            <ListBoxItem x:Name="_12" Content="12"/>
+            <ListBoxItem x:Name="_13" Content="13"/>
+            <ListBoxItem x:Name="_14" Content="14"/>
+            <ListBoxItem x:Name="_15" Content="15"/>
+            <ListBoxItem x:Name="_16" Content="16"/>
+            <ListBoxItem x:Name="_17" Content="17"/>
+            <ListBoxItem x:Name="_18" Content="18"/>
+            <ListBoxItem x:Name="_19" Content="19"/>
+            <ListBoxItem x:Name="_20" Content="20"/>
+            <ListBoxItem x:Name="_21" Content="21"/>
+            <ListBoxItem x:Name="_22" Content="22"/>
+            <ListBoxItem x:Name="_23" Content="23"/>
+            <ListBoxItem x:Name="_24" Content="24"/>
+            <ListBoxItem x:Name="_25" Content="25"/>
+            <ListBoxItem x:Name="_26" Content="26"/>
+            <ListBoxItem x:Name="_27" Content="27"/>
+            <ListBoxItem x:Name="_28" Content="28"/>
+            <ListBoxItem x:Name="_29" Content="29"/>
+            <ListBoxItem x:Name="_30" Content="30"/>
+            <ListBoxItem x:Name="_31" Content="31"/>
+            <ListBoxItem x:Name="_32" Content="32"/>
+            <ListBoxItem x:Name="_33" Content="33"/>
+            <ListBoxItem x:Name="_34" Content="34"/>
         </ListBox>
+        <Label x:Name="Przesunięcie" Content="Przesunięcie" HorizontalAlignment="Left" Height="33" Margin="684,126,0,0" VerticalAlignment="Top" Width="84"/>
 
     </Grid>
 </Window>
