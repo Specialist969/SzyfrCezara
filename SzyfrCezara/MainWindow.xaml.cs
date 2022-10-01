@@ -21,7 +21,7 @@ namespace SzyfrCezara
     public partial class MainWindow : Window
     {
         /// <summary>
-        ///  Algorytm Cezara - szyfruje kod poprzez zamiane liter o wskazaną wartość
+        ///  Algorytm Cezara - szyfruje kod poprzez zamiane kolejności liter o wskazaną wartość
         /// </summary>
         public MainWindow()
         {
